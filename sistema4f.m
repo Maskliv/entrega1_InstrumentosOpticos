@@ -11,8 +11,8 @@ function [salidaPura, imagenObservacion] = sistema4f(imagenEntrada,filtroEnPlano
 
 % Procedimiento
 
-% 1. Se simula el paso a través de la primera lente, si se asume lambda = 1
-% y foco = 1 de acuerdo a lo visto en clase tenemos que al pasar por la
+% 1. Se simula el paso a través de la primera lente, si se asume lambda *f = 1
+% de acuerdo a lo visto en clase tenemos que al pasar por la
 % lente la imagen de entrada quedaria trnasformada en el plano de fourier 
 % así:
 
