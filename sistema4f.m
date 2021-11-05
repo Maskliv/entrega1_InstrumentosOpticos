@@ -1,5 +1,5 @@
-function [salidaPura, imagenObservacion] = montajeOptico(imagenEntrada,filtroEnPlanoFourier)
-% Esta función representa la imagen de salida de un montaje optico compuesto
+function [salidaPura, imagenObservacion] = sistema4f(imagenEntrada,filtroEnPlanoFourier)
+% Esta función representa la imagen de salida de un montajepieza optico compuesto
 % de dos lentes delgadas identicas, separadas por dos veces su distancia
 % focal, los planos de entrada y salida ubicados a una distancia focal de
 % la primera y segunda lente respectivamente, el punto medio entre ambas
