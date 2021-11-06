@@ -5,5 +5,5 @@ k = 2*pi/waveLength;
 [X,Y] = meshgrid(xRange,yRange);
 alpha = cos(deg2rad(angleDegrees));
 beta = sin(deg2rad(angleDegrees));
-planeWaveProfile = sin( k * (X*alpha+Y*beta)+phase);
+planeWaveProfile = exp(-1i* k * (X*alpha+Y*beta)+phase);
 end
